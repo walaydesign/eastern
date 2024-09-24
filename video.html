@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>東森｜精彩影音</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
+  <body>
+    <div
+      class="modal fade"
+      id="biulding"
+      tabindex="-1"
+      aria-labelledby="biuldingLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0"></div>
+          <div class="modal-body text-center">頁面架設中</div>
+          <div class="modal-footer border-0">
+            <button
+              type="button"
+              class="btn btn-secondary d-block mx-auto bg-second border-0"
+              data-bs-dismiss="modal"
+            >
+              確定
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu">
+      <img class="logo" src="./public/img/logo.png" alt="" />
+      <ul class="content">
+        <li class="item">
+          <h5 class="menu-title"><a>走進新連鎖</a></h5>
+          <ul>
+            <li><a href="./about.html">關於東森</a></li>
+            <li><a href="./know.html">認識新連鎖</a></li>
+            <li><a href="./leader.html">卓越領導團隊</a></li>
+            <li><a href="./expert.html">專家顧問群</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./new.html">最新消息</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a>商品情報</a></h5>
+          <ul>
+            <li><a href="./product-health.html">保健</a></li>
+            <li><a href="./product-furniture.html">家用品</a></li>
+            <li><a href="./product-beauty.html">美容保養</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a>成功故事</a></h5>
+          <ul>
+            <li><a href="./story.html">皇冠級經銷商</a></li>
+            <li><a href="./story.html">鑽石級經銷商</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a>精彩影音</a></h5>
+          <ul>
+            <li><a href="./video.html">影片欣賞</a></li>
+            <li><a href="./album.html">相簿特輯</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./QA_product.html">問答集</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./earth.html">全球據點</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./charity.html">社會公益</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./contact.html">聯絡我們</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="#" data-bs-toggle="modal" data-bs-target="#biulding">會員登入</a></h5>
+        </li>
+      </ul>
+      <button class="lang py-2">
+        <div class="choose-box">
+          <div class="inner">
+            <img class="globe" src="./public/img/globe_icon.svg" alt="" />
+            <div class="d-inline-flex align-items-center">
+              <span class="active choose-tab">TW</span>
+              <div class="d-inline-flex align-items-center me-2">
+                <span class="mx-1">|</span
+                ><span class="choose-tab"><a href="#">CN</a></span>
+                <span class="mx-1">|</span
+                ><span class="choose-tab"><a href="#">EN</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <img src="./public/img/right_chevron_icon.svg" alt="" />
+        </div>
+      </button>
+    </div>
+    <header>
+      <div class="left">
+        <a href="./index.html"
+          ><img class="logo" src="./public/img/logo.png" alt="東森"
+        /></a>
+        <div class="menu-icon">
+          <img src="./public/img/menu_icon.svg" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#biulding"
+          ><img src="./public/img/user_icon.svg" alt=""
+        /></a>
+        <a class="search-box">
+          <div class="inner">
+            <form action=""><input type="text" placeholder="Search" /></form>
+          </div>
+          <img class="search-btn" src="./public/img/search_icon.svg" alt="" />
+        </a>
+        <a href="./contact.html"
+          ><img src="./public/img/map_pin_icon.svg" alt=""
+        /></a>
+        <a href="#"><img src="./public/img/download_icon.svg" alt=""></a>
+      </div>
+    </header>
+    <main>
+      <h1 class="page-title">精彩影音</h1>
+      <nav class="page-nav">
+        <ul>
+          <li class="active"><a href="./video.html">影片欣賞</a></li>
+          <li><a href="./album.html">相簿特輯</a></li>
+        </ul>
+      </nav>
+      <div
+        class="
+          page-tab-mobile
+          d-md-none d-flex
+          align-items-center
+          rounded-pill
+          bg-third
+          py-3
+          px-5
+          mb-5
+        "
+      >
+        <span class="mobile-tab-title"></span>
+        <img class="ms-4" src="./public/img/arrow-red.svg" alt="" />
+      </div>
+      <div class="page-tab-box">
+        <div class="page-tab-bg"></div>
+        <ul class="nav nav-tabs page-tab" id="videoTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="all-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#all"
+              type="button"
+              role="tab"
+              aria-controls="all"
+              aria-selected="true"
+            >
+              全部
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="unity-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#unity"
+              type="button"
+              role="tab"
+              aria-controls="unity"
+              aria-selected="false"
+            >
+              團結力量
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="emotion-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#emotion"
+              type="button"
+              role="tab"
+              aria-controls="emotion"
+              aria-selected="false"
+            >
+              甄情指數
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="sale-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#sale"
+              type="button"
+              role="tab"
+              aria-controls="sale"
+              aria-selected="false"
+            >
+              業務相關
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="product-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#product"
+              type="button"
+              role="tab"
+              aria-controls="product"
+              aria-selected="false"
+            >
+              產品影片
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="open-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#open"
+              type="button"
+              role="tab"
+              aria-controls="open"
+              aria-selected="false"
+            >
+              啟動大會影片
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="activity-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#activity"
+              type="button"
+              role="tab"
+              aria-controls="activity"
+              aria-selected="false"
+            >
+              活動花絮
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-content" id="videoTabContent">
+        <!-- 全部 -->
+        <div
+          class="tab-pane fade show active"
+          id="all"
+          role="tabpanel"
+          aria-labelledby="all-tab"
+        >
+          <div class="container py-100px">
+            <div class="video-box">
+              <h3>東森直消電商－事業制度篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商介紹</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商－公司產品篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="container pb-80px">
+            <nav aria-label="Page navigation" class="main-pagination">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <img
+                      class="arrow prev"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <img
+                      class="arrow next"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- 全部 end -->
+
+        <!-- 團結力量 -->
+        <div
+          class="tab-pane fade"
+          id="unity"
+          role="tabpanel"
+          aria-labelledby="unity-tab"
+        >
+          <div class="container py-100px">
+            <div class="video-box">
+              <h3>東森直消電商－事業制度篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商介紹</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商－公司產品篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="container pb-80px">
+            <nav aria-label="Page navigation" class="main-pagination">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <img
+                      class="arrow prev"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <img
+                      class="arrow next"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- 團結力量 end -->
+
+        <!-- 甄情指數 -->
+        <div
+          class="tab-pane fade"
+          id="emotion"
+          role="tabpanel"
+          aria-labelledby="emotion-tab"
+        >
+          <div class="container py-100px">
+            <div class="video-box">
+              <h3>東森直消電商－事業制度篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商介紹</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商－公司產品篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="container pb-80px">
+            <nav aria-label="Page navigation" class="main-pagination">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <img
+                      class="arrow prev"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <img
+                      class="arrow next"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- 甄情指數 end -->
+
+        <!-- 業務相關 -->
+        <div
+          class="tab-pane fade"
+          id="sale"
+          role="tabpanel"
+          aria-labelledby="sale-tab"
+        >
+          <div class="container py-100px">
+            <div class="video-box">
+              <h3>東森直消電商－事業制度篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商介紹</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商－公司產品篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="container pb-80px">
+            <nav aria-label="Page navigation" class="main-pagination">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <img
+                      class="arrow prev"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <img
+                      class="arrow next"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- 業務相關 end -->
+
+        <!-- 產品影片 -->
+        <div
+          class="tab-pane fade"
+          id="product"
+          role="tabpanel"
+          aria-labelledby="product-tab"
+        >
+          <div class="container py-100px">
+            <div class="video-box">
+              <h3>東森直消電商－事業制度篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商介紹</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商－公司產品篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="container pb-80px">
+            <nav aria-label="Page navigation" class="main-pagination">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <img
+                      class="arrow prev"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <img
+                      class="arrow next"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- 產品影片 end -->
+
+        <!-- 啟動大會影片 -->
+        <div
+          class="tab-pane fade"
+          id="open"
+          role="tabpanel"
+          aria-labelledby="open-tab"
+        >
+          <div class="container py-100px">
+            <div class="video-box">
+              <h3>東森直消電商－事業制度篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商介紹</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商－公司產品篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="container pb-80px">
+            <nav aria-label="Page navigation" class="main-pagination">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <img
+                      class="arrow prev"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <img
+                      class="arrow next"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- 啟動大會影片 end -->
+
+        <!-- 活動花絮 -->
+        <div
+          class="tab-pane fade"
+          id="activity"
+          role="tabpanel"
+          aria-labelledby="activity-tab"
+        >
+          <div class="container py-100px">
+            <div class="video-box">
+              <h3>東森直消電商－事業制度篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商介紹</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="video-box">
+              <h3>東森直消電商－公司產品篇</h3>
+              <div class="video-box_content">
+                <iframe
+                  src="https://www.youtube.com/embed/VvycFWLSdIs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="container pb-80px">
+            <nav aria-label="Page navigation" class="main-pagination">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <img
+                      class="arrow prev"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <img
+                      class="arrow next"
+                      src="./public/img/right_chevron_icon.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- 活動花絮 end -->
+      </div>
+    </main>
+    <footer>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-8 left">
+            <img src="./public/img/logo.png" alt="" class="mobile-logo" />
+            <!-- <img class="mobile-logo" src="./public/img/logo.png" alt=""> -->
+            <div class="row">
+              <div class="footer-list col-md-3 col-4">
+                <h5 class="footer-title">
+                  最新消息<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+                <ul>
+                  <li><a href="./new.html">新連鎖快訊</a></li>
+                  <li><a href="./calendar.html">行事曆</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-block d-none">
+                <h5 class="footer-title">商品</h5>
+                <ul>
+                  <li><a href="./product-health.html">營養保健</a></li>
+                  <li><a href="./product-furniture.html">家用品</a></li>
+                  <li><a href="./product-health.html">美容保養</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-block d-none">
+                <h5 class="footer-title">成功故事</h5>
+                <ul>
+                  <li><a href="./story.html">皇冠級經銷商</a></li>
+                  <li><a href="./story.html">鑽石級經銷商</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-block d-none">
+                <h5 class="footer-title">精彩影音</h5>
+                <ul>
+                  <li><a href="./video.html">影片</a></li>
+                  <li><a href="./album.html">照片</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4">
+                <h5 class="footer-title">
+                  問答集<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+                <ul>
+                  <li><a href="./QA_product.html">常見問題</a></li>
+                  <li><a href="./QA_product.html">商品相關</a></li>
+                  <li><a href="./QA_product.html">事業機會相關</a></li>
+                  <li><a href="./QA_product.html">券集商城＆票券館</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4">
+                <h5 class="footer-title">
+                  聯絡我們<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+                <ul>
+                  <li><a href="./contact.html">聯繫專員</a></li>
+                  <li><a href="./place.html">服務據點</a></li>
+                  <li><a href="./download.html">線上表單</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-block d-none">
+                <h5 class="footer-title">會員登入</h5>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-none d-block">
+                <h5 class="footer-title">
+                  服務據點<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-none d-block">
+                <h5 class="footer-title">
+                  商<span class="me-3"></span> 品<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+                <ul>
+                  <li><a href="./product-health.html">營養保健</a></li>
+                  <li><a href="./product-furniture.html">家用品</a></li>
+                  <li><a href="./product-beauty.html">美容保養</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-none d-block">
+                <h5 class="footer-title">會員專區</h5>
+              </div>
+              <div class="footer-list col-12 join">
+                <h5 class="footer-title">加入東森社群</h5>
+                <div class="icon">
+                  <a href="#"
+                    ><img src="./public/img/icon-circle-fb.png" alt=""
+                  /></a>
+                  <a href="#"
+                    ><img src="./public/img/icon-circle-line.png" alt=""
+                  /></a>
+                  <a href="#"
+                    ><img src="./public/img/icon-circle-youku.png" alt=""
+                  /></a>
+                  <a href="#"
+                    ><img src="./public/img/icon-circle-youtube.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 right pt-5">
+            <!-- <div class="link">
+                <a href="#">服務據點</a>
+                <span>|</span>
+                <a href="#">行事曆</a>
+              </div> -->
+            <img class="logo" src="./public/img/logo.png" alt="" />
+            <button class="user"><a href="#">會員專區</a></button>
+          </div>
+          <div class="col-12 copyright">
+            <p>©2019 Eastern Commerce Company 東森直消電商版權所有</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- js -->
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/index.js"></script>
+  </body>
+</html>

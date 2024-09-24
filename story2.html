@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>東森｜新連鎖快訊</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
+  <body>
+    <div
+      class="modal fade"
+      id="biulding"
+      tabindex="-1"
+      aria-labelledby="biuldingLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0"></div>
+          <div class="modal-body text-center">頁面架設中</div>
+          <div class="modal-footer border-0">
+            <button
+              type="button"
+              class="btn btn-secondary d-block mx-auto bg-second border-0"
+              data-bs-dismiss="modal"
+            >
+              確定
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu">
+      <img class="logo" src="./public/img/logo.png" alt="" />
+      <ul class="content">
+        <li class="item">
+          <h5 class="menu-title"><a>走進新連鎖</a></h5>
+          <ul>
+            <li><a href="./about.html">關於東森</a></li>
+            <li><a href="./know.html">認識新連鎖</a></li>
+            <li><a href="./leader.html">卓越領導團隊</a></li>
+            <li><a href="./expert.html">專家顧問群</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./new.html">最新消息</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a>商品情報</a></h5>
+          <ul>
+            <li><a href="./product-health.html">保健</a></li>
+            <li><a href="./product-furniture.html">家用品</a></li>
+            <li><a href="./product-beauty.html">美容保養</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a>成功故事</a></h5>
+          <ul>
+            <li><a href="./story.html">皇冠級經銷商</a></li>
+            <li><a href="./story2.html">鑽石級經銷商</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a>精彩影音</a></h5>
+          <ul>
+            <li><a href="./video.html">影片欣賞</a></li>
+            <li><a href="./album.html">相簿特輯</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./QA_product.html">問答集</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./earth.html">全球據點</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./charity.html">社會公益</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="./contact.html">聯絡我們</a></h5>
+        </li>
+        <li class="item">
+          <h5 class="menu-title"><a href="#" data-bs-toggle="modal" data-bs-target="#biulding">會員登入</a></h5>
+        </li>
+      </ul>
+      <button class="lang py-2">
+        <div class="choose-box">
+          <div class="inner">
+            <img class="globe" src="./public/img/globe_icon.svg" alt="" />
+            <div class="d-inline-flex align-items-center">
+              <span class="active choose-tab">TW</span>
+              <div class="d-inline-flex align-items-center me-2">
+                <span class="mx-1">|</span
+                ><span class="choose-tab"><a href="#">CN</a></span>
+                <span class="mx-1">|</span
+                ><span class="choose-tab"><a href="#">EN</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <img src="./public/img/right_chevron_icon.svg" alt="" />
+        </div>
+      </button>
+    </div>
+    <header>
+      <div class="left">
+        <a href="./index.html"
+          ><img class="logo" src="./public/img/logo.png" alt="東森"
+        /></a>
+        <div class="menu-icon">
+          <img src="./public/img/menu_icon.svg" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#biulding"
+          ><img src="./public/img/user_icon.svg" alt=""
+        /></a>
+        <a class="search-box">
+          <div class="inner">
+            <form action=""><input type="text" placeholder="Search" /></form>
+          </div>
+          <img class="search-btn" src="./public/img/search_icon.svg" alt="" />
+        </a>
+        <a href="./contact.html"
+          ><img src="./public/img/map_pin_icon.svg" alt=""
+        /></a>
+        <a href="#"><img src="./public/img/download_icon.svg" alt=""></a>
+      </div>
+    </header>
+    <main>
+      <h1 class="page-title">成功故事</h1>
+      <nav class="page-nav">
+        <ul>
+          <li><a href="./story.html">皇冠級經銷商</a></li>
+          <li class="active"><a href="./story2.html" data-bs-toggle="modal" data-bs-target="#biulding">鑽石級經銷商</a></li>
+        </ul>
+      </nav>
+      <div class="page-banner">
+        <div class="page-banner_inner">
+          <div class="container">
+            <div class="page-banner_content">
+              <img src="./public/img/success_pic_1.png" alt="" />
+              <h2>
+                你的成功，就是我的成就
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-80px px-0 overflow-hidden">
+        <div class="row pb-80px">
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-15.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425113351Oxu1.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">陳奕潔</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-16.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/202104251143528A19.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">陳佳燕</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-17.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/202104251149053Z8d.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">劉子羚</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-18.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202106/20210624063906yvYY.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">賴申翰</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-1.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202106/20210624064051Mbdb.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">李睿洋</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-2.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425120207qX20.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">黃孟濡</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-3.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/2021042512045780zw.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">林長勳</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-4.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425120909WBiF.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">許淳橞</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-5.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202106/20210630072809Mg4i.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">周景弘</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-6.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425121848EBri.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">蔡嘉瑁</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-7.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425122819DnWx.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">劉采渝</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-8.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/202104251230302SlZ.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">吳定濂</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-9.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425010142LC5C.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">許儷薰</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-10.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425010720f1qw.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">劉于瞳</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-11.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425011133buyC.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">呂靆蔆</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-12.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425011523p6Hy.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">廖欽弘</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-13.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425011903Wxd2.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">林靖紋</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-14.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/202104250121002nUn.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">蔡莉泓</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-15.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/202104250122236Uqe.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">鍾心彤</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-16.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425012828LNvD.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">達衣布</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-17.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425013124ZY5E.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">陳政霖&王玉馨 (五寶爸企業社)</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-18.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425012417ob25.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">王敬之</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-1.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427070223hJEH.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">黃峻瑜</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-2.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427075333aypk.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">吳淑麗</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-3.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427075532G8GD.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">何金秀</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-4.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202107/20210705060522hPbH.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">張濬騏</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-5.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/202104270801259Bi9.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">吳柏勳</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-6.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202107/20210705060118kv9B.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">陳惠美</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-7.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427080540ue4G.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">呂芮甄</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-8.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427080659N5b1.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">黃宏仁</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-9.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425013453gZyF.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">蔡忻樺</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-10.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425124226h6YA.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">張恆德</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-11.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202107/20210705060140VgBI.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">曾慧心</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-12.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427081022Igg6.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">雷嘉溱</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-13.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427081035mfdl.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">廖于涵</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-14.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427081141UoQm.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">吳麗敏</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-15.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427081241TOhQ.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">王博正</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-16.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/202104270814169AMO.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">魏後昇</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/202104270815161BDM.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">柯勝凱</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-17.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/2021042501360556Kg.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">林芸竹</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-18.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210427081636gxLn.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">侯黃麗美</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 ps-md-0">
+            <a href="./story_inner-19.html" class="d-block main-card mb-5">
+              <img class="w-100" src="https://portal.eckare.com/media/202104/20210425015745pto0.jpg" alt="" />
+              <div class="text bg-white pb-3">
+                <small class="text-center d-block">鑽石</small>
+                <h3 class="text-center text-second-color m-0">李庭菲</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-8 left">
+            <img src="./public/img/logo.png" alt="" class="mobile-logo" />
+            <!-- <img class="mobile-logo" src="./public/img/logo.png" alt=""> -->
+            <div class="row">
+              <div class="footer-list col-md-3 col-4">
+                <h5 class="footer-title">
+                  最新消息<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+                <ul>
+                  <li><a href="./new.html">新連鎖快訊</a></li>
+                  <li><a href="./calendar.html">行事曆</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-block d-none">
+                <h5 class="footer-title">商品</h5>
+                <ul>
+                  <li><a href="./product-health.html">營養保健</a></li>
+                  <li><a href="./product-furniture.html">家用品</a></li>
+                  <li><a href="./product-health.html">美容保養</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-block d-none">
+                <h5 class="footer-title">成功故事</h5>
+                <ul>
+                  <li><a href="./story.html">皇冠級經銷商</a></li>
+                  <li><a href="./story.html">鑽石級經銷商</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-block d-none">
+                <h5 class="footer-title">精彩影音</h5>
+                <ul>
+                  <li><a href="./video.html">影片</a></li>
+                  <li><a href="./album.html">照片</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4">
+                <h5 class="footer-title">
+                  問答集<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+                <ul>
+                  <li><a href="./QA_product.html">常見問題</a></li>
+                  <li><a href="./QA_product.html">商品相關</a></li>
+                  <li><a href="./QA_product.html">事業機會相關</a></li>
+                  <li><a href="./QA_product.html">券集商城＆票券館</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4">
+                <h5 class="footer-title">
+                  聯絡我們<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+                <ul>
+                  <li><a href="./contact.html">聯繫專員</a></li>
+                  <li><a href="./place.html">服務據點</a></li>
+                  <li><a href="./download.html">線上表單</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-block d-none">
+                <h5 class="footer-title">會員登入</h5>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-none d-block">
+                <h5 class="footer-title">
+                  服務據點<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-none d-block">
+                <h5 class="footer-title">
+                  商<span class="me-3"></span> 品<img
+                    class="plus d-md-none d-inline-block"
+                    src="./public/img/plus-solid.svg"
+                    alt=""
+                  />
+                </h5>
+                <ul>
+                  <li><a href="./product-health.html">營養保健</a></li>
+                  <li><a href="./product-furniture.html">家用品</a></li>
+                  <li><a href="./product-beauty.html">美容保養</a></li>
+                </ul>
+              </div>
+              <div class="footer-list col-md-3 col-4 d-md-none d-block">
+                <h5 class="footer-title">會員專區</h5>
+              </div>
+              <div class="footer-list col-12 join">
+                <h5 class="footer-title">加入東森社群</h5>
+                <div class="icon">
+                  <a href="#"
+                    ><img src="./public/img/icon-circle-fb.png" alt=""
+                  /></a>
+                  <a href="#"
+                    ><img src="./public/img/icon-circle-line.png" alt=""
+                  /></a>
+                  <a href="#"
+                    ><img src="./public/img/icon-circle-youku.png" alt=""
+                  /></a>
+                  <a href="#"
+                    ><img src="./public/img/icon-circle-youtube.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 right pt-5">
+            <!-- <div class="link">
+                <a href="#">服務據點</a>
+                <span>|</span>
+                <a href="#">行事曆</a>
+              </div> -->
+            <img class="logo" src="./public/img/logo.png" alt="" />
+            <button class="user"><a href="#">會員專區</a></button>
+          </div>
+          <div class="col-12 copyright">
+            <p>©2019 Eastern Commerce Company 東森直消電商版權所有</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- js -->
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/index.js"></script>
+  </body>
+</html>
